@@ -1,0 +1,101 @@
+
+div ::content{
+max-width: 1600px;
+}
+.ppp {
+    width: 5%;
+}
+#content {
+    margin: 0 auto
+}
+
+#background {
+    height: 725px;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+#button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #808287; 
+}
+header {
+    background-color:#6fcca6;
+}
+nav a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+ }
+ .home-title {
+    color: #d9c2a3;
+ }
+ h4 {
+    color: #d9c2a3;
+ }
+ .book {
+    color: #d9c2a3;
+    text-align: center;
+ }
+ .join {
+    color: #d9c2a3;
+    text-align: center;
+ }
+ .book:hover {
+    color: #d9c2a3;
+ }
+ .join:hover {
+    color: #d9c2a3;
+ }
+ .msg h2 {
+    color: #000;
+ }
+ .msg p {
+    color: #000;
+ }
+ footer {
+    color: #000000;
+ }
+ footer p {
+    font-size: 1.2em;
+ }
+ footer p a:hover {
+    text-decoration: underline;
+ }
+ footer a {
+    color: #000;
+    text-align: center;
+ }
+ footer a:hover {
+    color: #000000;
+ }
+ card-img {
+    width: 80px;
+ }
+ .icon {
+    width: 80px;
+ }
+ card-img {
+    width: 80px;
+ }
+ #mountains {
+    width: 80px;
+ }
+ #Hero-img {
+    width: 100%;
+ }
