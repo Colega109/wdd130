@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Succulent Shop</title>
+    <link type="text/css" rel="stylesheet" href="gpt.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Succulent Shop</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>Welcome to Succulent Shop! We are a small business that specializes in selling a variety of succulents. All of our succulents are grown with care and attention, ensuring that you receive only the best plants. Whether you're a seasoned gardener or just starting out, we have something for everyone.</p>
+      </section>
+      <section id="products">
+        <h2>Products</h2>
+        <ul>
+          <li>
+            <h3>Jade Plant</h3>
+            <img src="jade-plant.jpg" alt="Jade Plant">
+            <p>The Jade Plant, also known as the "Money Plant," is believed to bring good luck and prosperity. This easy-to-care-for succulent is perfect for any home or office.</p>
+            <p>Price: $15.00</p>
+            <button>Add to Cart</button>
+          </li>
+          <li>
+            <h3>Aloe Vera</h3>
+            <img src="aloe-vera.jpg" alt="Aloe Vera">
+            <p>Aloe Vera is not only a beautiful addition to any home, but it also has many health benefits. Its gel can be used to soothe burns and cuts, making it a must-have for any first-aid kit.</p>
+            <p>Price: $12.00</p>
+            <button>Add to Cart</button>
+          </li>
+          <li>
+            <h3>Echeveria</h3>
+            <img src="echeveria.jpg" alt="Echeveria">
+            <p>Echeveria is a type of succulent that comes in a variety of colors and shapes. Its rosette shape and striking colors make it a popular choice for succulent arrangements.</p>
+            <p>Price: $18.00</p>
+            <button>Add to Cart</button>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br><br
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Succulent Shop 2023</p>
+    </footer>
+  </body>
+</html>

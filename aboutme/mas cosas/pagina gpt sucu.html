@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tienda de Suculentas</title>
+    <style>
+      body {
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+        color: #060606;
+      }
+      header {
+        background-color: #6fcca6;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+        color: #ffffff;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .card {
+        width: calc(33.33% - 40px);
+        background-color: #808287;
+        color: #ffffff;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+      .card h2 {
+        margin: 0;
+      }
+      .card p {
+        margin: 10px 0;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+      }
+      .video-section {
+        background-color: #fc8e0f;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .video-section h2 {
+        margin: 0;
+      }
+      .video-section iframe {
+        width: 80%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda de Suculentas</h1>
+    </header>
+    <div class="container">
+      <div class="card">
+        <h2>Suculenta 1</h2>
+        <p>Descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur mi id est tempor, et rhoncus magna viverra.</p>
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/aloe-vera-plant-outside-jpg-1522875135.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Suculenta 1">
+        <p>Precio: $10</p>
+      </div>
+      <div class="card">
+        <h2>Suculenta 2</h2>
+        <p>Descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur mi id est tempor, et rhoncus magna viverra.</p>
+        <img src="https://via.placeholder.com/150x150" alt="Suculenta 2">
+        <p>Precio: $15</p>
+      </div>
+      <div class="card">
+        <h2>Suculenta 3</h2>
+        <p>Descripción: Lorem 
+ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur mi id est tempor, et rhoncus magna viverra.</p>
+        <img src="https://via.placeholder.com/150x150" alt="Suculenta 3">
+        <p>Precio: $20</p>
+      </div>
+    </div>
+    <div class="video-section">
+      <h2>Cómo cuidar tus suculentas</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Umrazq1V9NA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
