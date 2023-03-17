@@ -35,10 +35,11 @@ max-width: 1600px;
    grid-template-columns: 1fr 3fr 1fr;
    margin-top: -100px;
  }
+ .hero-box{
+   place-items: center;
+ }
  #hero-box{
-   align-content: center;
-   grid-column: 1 / 3;
-   grid-row: 1 / 3;
+   place-content: center;
    z-index: -1;
     }
 #hero-msg {
@@ -210,7 +211,8 @@ nav a:hover {
     grid-column: 1/12;
     grid-row: 4/10;
  }
- .Hero-img {align-items: center;
+ .hero-img {
+   align-content: center;
     width: 100%;
     grid-row: 2/2;
  }
