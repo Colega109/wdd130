@@ -21,101 +21,24 @@
   --nav-hover-link-color: #f7f7f7;
   --nav-hover-background-color: #9dd2e5;  
 }
-
-/* Set global styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.container {
+  position: relative;
+  height: 100px;
 }
-
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-/* Set styles for header */
-header {
+.logo {
+  width: 10px;
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  z-index: 1;
-  padding: 1rem;
 }
-
-.header-content {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1;
+.nav {
+  float: right;
+  margin-top: 20px;
 }
-
-h1 {
-  font-size: 2rem;
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
 }
-
-nav ul {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 1rem;
-}
-
-nav li {
-  margin: 0;
-}
-
-nav a {
-  font-size: 1.2rem;
-}
-
-/* Set styles for main */
-.hero {
-  position: relative; /* Add this line to make the position of the content relative to this element */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image: url(/prsonal-site/images/background.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-.hero h2 {
-  font-size: 3rem;
-}
-
-.content {
-  position: absolute; /* Add this line to make the position of the content absolute */
-  top: 700px; /* Change the value to adjust the top position of the content */
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 2rem;
-  text-align: center;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-#hero-img {
-  background-image:initial;
-  width: 100%;
-}
-div h1 {
-  color: white;
+.logo img {
+  width: 250px;
 }

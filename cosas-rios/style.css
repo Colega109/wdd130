@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Rock+Salt&display=swap');
+:root {
+   /* change the values below to your colors from your palette */
+   --primary-color: #6fcca6   ;
+   --secondary-color: #808287 ;
+   --accent1-color: #ffffff;
+   --accent2-color: rgb(0, 0, 0);
+ 
+   /* change the values below to your chosen font(s) */
+   --heading-font: "Rock Salt";
+   --paragraph-font: "Roboto Condensed", Helvetica, sans-serif;
+ 
+   /* these colors below should be chosen from among your palette colors above */
+   --headline-color-on-white: #000000;  /* headlines on a white background */ 
+   --headline-color-on-color: white; /* headlines on a colored background */ 
+   --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+   --paragraph-background-color: #6fcca6  ;
+   --nav-link-color: #000000;
+   --nav-background-color: #fc8e0f;
+   --nav-hover-link-color: white;
+   --nav-hover-background-color: #396E94;
+ }
+ header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .logo {
+   max-width: 50px;
+   height: auto;
+ }
+ #hero {
+   display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+   margin-top: -100px; 
+}
+#hero-box {
+   grid-column: 1/4;
+   grid-row: 1/3;
+   z-index: -1;
+}
+#hero-msg {
+   grid-row: 2 / 3;
+   grid-column: 1 / 2;
+   margin-top: 100px;
+ }
+ #hero-msg h4 {
+   color: white;
+}
+.card-img, .mountains {
+   width: 100%;
+}
+
+ #background {
+   grid-row: 4 / 5;
+   grid-column: 1 /11;
+ }
+ 
+ .mountains {
+   grid-row: 5 /3;
+   grid-column: 2 /6;
+ }
+ 
+ .msg {
+   grid-row: 6 / span 1;
+   grid-column: 6 / span 4;
+ }
+ .card-img {
+   border: 10px solid #d9c2a3;
+   transition: transform .5s;
+   box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+   opacity: .6;
+   transform: scale(1.1);
+}
+ 
+
+/* Style the navigation links */
+nav a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 1.2rem;
+}
+
+nav a:hover {
+   color: #fff;
+   background-color: #333;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+/* Style the main content grid */
+.home-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto auto;
+   gap: 20px;
+   margin-top: 50px;
+}
+
+.rivers-card-content, .camping-card-content, .rapids-card, .msg-card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+footer {
+   background-color: #6f7364;
+   padding: 25px 50px;
+   margin-top: 200px; 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+footer {
+   background-color: #6f7364;
+   padding: 25px 50px;
+   margin-top: 200px; 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+    
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+   #hero, .home-grid {
+       display: block;
+       height: auto;
+      }
+   nav a {
+      text-decoration: none;
+       padding: 35px;
+       color: #ffffff;
+       flex-direction: column;
+       text-align: center;
+       
+   }
+   #hero {
+       margin-top: 0;
+   }
+   #hero-msg {
+       margin-top: 0;
+   }
+   #hero-msg h4 {
+       display: none;
+   }
+  .home-title {
+   font-size: 4rem;
+   color: white;
+   margin: 0;
+   text-shadow: 2px 2px #00000080;
+   margin-bottom: 20px;
+}
+   .rivers-card, .camping-card, .rapids-card { 
+       margin: 50px auto;
+       width: 60%;
+   }
+   #background {
+       display: none;
+   }
+   .mountains, .msg {
+       width: 100%;
+       display: block;
+       margin: 0 auto;
+   }
+   footer {
+       margin-top: 25px;
+   }
+}

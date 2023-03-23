@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Rock+Salt&display=swap');
+:root {
+   /* change the values below to your colors from your palette */
+   --primary-color: #6fcca6   ;
+   --secondary-color: #808287 ;
+   --accent1-color: #ffffff;
+   --accent2-color: rgb(0, 0, 0);
+ 
+   /* change the values below to your chosen font(s) */
+   --heading-font: "Rock Salt";
+   --paragraph-font: "Roboto Condensed", Helvetica, sans-serif;
+ 
+   /* these colors below should be chosen from among your palette colors above */
+   --headline-color-on-white: #000000;  /* headlines on a white background */ 
+   --headline-color-on-color: white; /* headlines on a colored background */ 
+   --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+   --paragraph-background-color: #6fcca6  ;
+   --nav-link-color: #000000;
+   --nav-background-color: #fc8e0f;
+   --nav-hover-link-color: white;
+   --nav-hover-background-color: #396E94;
+ }
+
+
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-size: 16px;
+  }
+  
+  header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 150;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    opacity: 1;
+  }
+  
+  main {
+    padding-top: 100px;
+  }
+  
+  .banner {
+    background-image: url('/cosas-rios/subpage-rios/images/top.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner h1 {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  
+  
+  .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .image {
+    width: 30%;
+  }
+  
+  .image img {
+    width: 100%;
+  }
+  
+  .image h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .image p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  
+  footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
