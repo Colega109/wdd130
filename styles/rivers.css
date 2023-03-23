@@ -59,7 +59,12 @@
   nav li {
     margin-right: 20px;
   }
-  
+  nav a:hover {
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+ }
   nav a {
     text-decoration: none;
     color: #333;
@@ -76,7 +81,7 @@
   }
   
   .banner {
-    background-image: url('/cosas-rios/subpage-rios/images/top.jpg');
+    background-image: url(/images/top.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;

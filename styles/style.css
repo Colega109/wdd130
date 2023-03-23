@@ -47,7 +47,7 @@
    margin-top: 100px;
  }
  #hero-msg h4 {
-   color: white;
+   color: rgb(14, 12, 12);
 }
 .card-img, .mountains {
    width: 100%;
@@ -68,7 +68,7 @@
    grid-column: 6 / span 4;
  }
  .card-img {
-   border: 10px solid #d9c2a3;
+   border: 10px solid #94670db4;
    transition: transform .5s;
    box-shadow: 5px 5px 10px #6f7364;
 }
@@ -81,7 +81,7 @@
 /* Style the navigation links */
 nav a {
    text-decoration: none;
-   color: #fff;
+   color: #f80c0c;
    font-size: 1.2rem;
 }
 
@@ -158,7 +158,7 @@ footer {
    }
   .home-title {
    font-size: 4rem;
-   color: white;
+   color: rgb(255, 10, 10);
    margin: 0;
    text-shadow: 2px 2px #00000080;
    margin-bottom: 20px;
