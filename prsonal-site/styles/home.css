@@ -21,9 +21,24 @@
   --nav-hover-link-color: #f7f7f7;
   --nav-hover-background-color: #9dd2e5;  
 }
+header{
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--accent2-color);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--paragraph-font);
+}
+
 .container {
   position: relative;
   height: 100px;
+}
+body{
+  background-color: var(--secondary-color);
 }
 .logo {
   width: 10px;
@@ -41,4 +56,13 @@
 }
 .logo img {
   width: 250px;
+}
+footer {
+  background-color: var(--accent2-color);
+  padding: 25px 50px;
+  margin-top: 200px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 50px;
 }
